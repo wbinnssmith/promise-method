@@ -1,5 +1,8 @@
 # promise-method
 
+[![Build Status](https://travis-ci.org/wbinnssmith/promise-method.svg)](https://travis-ci.org/wbinnssmith/promise-method)
+[![js-semistandard-style](https://cdn.rawgit.com/flet/semistandard/master/badge.svg)](https://github.com/Flet/semistandard)
+
 Wraps a function and returns one that always returns a promise. API-compatible with bluebird's `Promise.method`.
 
 This promise will resolve with the return value of the passed function. If the passed function throws, the resulting promise will reject. The calling context is preserved in this process, so it can safely wrap object methods.
