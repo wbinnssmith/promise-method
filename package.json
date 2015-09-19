@@ -1,6 +1,6 @@
 {
   "name": "promise-method",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wraps a function and returns one that always returns a promise",
   "repository": "wbinnssmith/promise-method",
   "main": "index.js",
