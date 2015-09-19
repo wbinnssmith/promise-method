@@ -1,6 +1,7 @@
 # promise-method
 
 [![Build Status](https://travis-ci.org/wbinnssmith/promise-method.svg)](https://travis-ci.org/wbinnssmith/promise-method)
+
 [![js-semistandard-style](https://cdn.rawgit.com/flet/semistandard/master/badge.svg)](https://github.com/Flet/semistandard)
 
 Wraps a function and returns one that always returns a promise. API-compatible with bluebird's `Promise.method`.
